@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "node-sass": "^4.9.0",
+    "normalize.css": "^8.0.0",
+    "parcel": "^1.9.4"
+  }
+}
