@@ -1,3 +1,7 @@
-import '../../assets/scss/pages/page1.scss'
+class Page1 {
+	constructor() {
+		console.log('Start Page1')
+	}
+}
 
-console.log('page1')
+new Page1()

@@ -1,5 +1,19 @@
-import '../../assets/scss/pages/index.scss'
 import { Utils } from '../modules/utils'
 
-const u = new Utils();
-console.log(u.isEmpty('a'))
+class Index{
+	constructor(){
+		console.log('Start Index')
+		this.util = new Utils()
+		this.checkEmpty()
+		this.getJson()
+	}
+	checkEmpty(){
+		console.log(this.util.isEmpty('Testing'))
+	}
+	getJson(){
+		this.util.fetch('http://api.icndb.com/jokes/random')
+		.then(data => { console.log(data) })
+	}
+}
+
+new Index()
