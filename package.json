@@ -1,7 +1,26 @@
 {
-  "dependencies": {
-    "node-sass": "^4.9.0",
-    "normalize.css": "^8.0.0",
-    "parcel": "^1.9.4"
-  }
+	"name": "parcel-sass-boilerplate",
+	"version": "1.0.0",
+	"description": "A boilerplate for parcel including sass and the directory structure",
+	"license": "MIT",
+	"scripts" : {
+		"watch" : "concurrently \"parcel .\" \"parcel watch .\"",
+		"build" : "parcel build ."
+	},
+	"dependencies": {
+		"concurrently": "^3.6.0",
+		"node-sass": "^4.9.0",
+		"normalize.css": "^8.0.0",
+		"parcel": "^1.9.4"
+	},
+	"keywords": [
+		"parcel",
+		"sass",
+		"boilerplate"
+	],
+	"author": "Diogo Cezar <diogo@diogocezar.com>",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/diogocezar/dctb-parcel-handson"
+	}
 }

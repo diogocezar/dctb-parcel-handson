@@ -1,0 +1,1 @@
+{"version":3,"sources":["dctb-parcel-handson/js/pages/page2.js"],"names":["console","log"],"mappings":";;;AAEA,aAFA,QAAA,sCAEAA,QAAQC,IAAI","file":"page2.c160fb3d.map","sourceRoot":"..","sourcesContent":["import '../../assets/scss/pages/page2.scss'\n\nconsole.log('page2')"]}
